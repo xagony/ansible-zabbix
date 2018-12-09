@@ -9,8 +9,8 @@ zabbix_agent_packages:
   - zabbix-get
 
 zabbix_agent_package_state: present
-zabbix_agent_server: 18.219.66.5
-zabbix_agent_serveractive: 18.219.66.5
+zabbix_agent_server: 3.17.37.74
+zabbix_agent_serveractive: 3.17.37.74
 zabbix_selinux: False
 
 zabbix_repo_yum:

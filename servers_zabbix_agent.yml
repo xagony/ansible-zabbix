@@ -1,7 +1,4 @@
 ---
-- hosts: servers
-  remote_user: oleksandr
-  become: yes
-  become_user: root
+- hosts: prod
   roles:
       - { role: zabbix-agent }

@@ -8,9 +8,6 @@
 #   - You can enter hostnames or ip addresses
 #   - A hostname/ip can be a member of multiple groups
 
-[servers]
-test ansible_ssh_host=13.59.56.214 ansible_ssh_user=admin
-test2 ansible_ssh_host=18.222.13.142 ansible_ssh_user=admin
 
-[prod]
-host1 ansible_ssh_host=35.189.235.211 ansible_user=oleksandr ansible_become=yes
+[servers]
+third_eye_labs-vm ansible_ssh_host=35.189.235.211 ansible_user=oleksandr ansible_become=yes
